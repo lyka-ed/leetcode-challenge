@@ -13,7 +13,7 @@ var decodeString = function (s) {
       while (stack.length > 0 && stack[stack.length - 1] !== "[") {
         decodedStr = stack.pop() + decodedStr;
       }
-      stack.pop(); // Remove "["
+      stack.pop(); =
 
       let num = "";
       while (stack.length > 0 && !isNaN(stack[stack.length - 1])) {
